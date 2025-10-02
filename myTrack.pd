@@ -1,0 +1,16 @@
+#N canvas 740 91 255 233 12;
+#X obj 52 167 *~;
+#X obj 70 137 line~;
+#X msg 70 107 \$1 20;
+#X obj 70 80 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 51 36 inlet~;
+#X obj 111 37 inlet;
+#X obj 52 202 outlet~;
+#X text 112 16 on/off;
+#X text 48 16 audio;
+#X connect 0 0 6 0;
+#X connect 1 0 0 1;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 0;
+#X connect 5 0 3 0;
